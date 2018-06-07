@@ -1,0 +1,41 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#renderCanvas{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	touch-action: none;
+}
+
+#start{
+    color: white;
+    position: fixed;
+    width: 502px;
+    height: 42px;
+    left: calc(50% - 251px);
+    top: calc(50% - 21px);
+    text-align: center;
+}
+
+#start h1{
+    display: inline-block;
+    margin: 0;
+}
+
+#start.disable, #start.hidden{
+    display: none;
+}
+
+#score{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    color: black;
+}
